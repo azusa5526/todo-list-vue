@@ -15,7 +15,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.22",
+    "axios": "^1.7.3",
+    "klona": "^2.0.6",
     "pinia": "^2.1.7",
+    "sortablejs": "^1.15.2",
     "vue": "^3.4.29"
   },
   "devDependencies": {
@@ -24,6 +28,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^20.14.5",
+    "@types/sortablejs": "^1.15.8",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^13.0.0",
